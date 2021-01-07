@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Макет grid</title>
+<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
+<style>
+body {
+    display: grid;
+    font-family: Arial, Verdana, sans-serif;
+	color: #000000;
+	text-align: center;
+}
+#nav, #feature, .article, #footer {
+    background-color: grey;
+	margin-top: 20px;
+	padding: 10px 0px 5px 0px;
+	display: grid;
+}
+#feature {
+    height: 100px;
+}
+.article {
+    height: 200px;
+}
+li {
+	padding: 25px;
+    display: inline;
+}
+a {
+	text-decoration: none;
+    color: #ffffff;
+    opacity: 0.5;
+}
+a:hover {
+	opacity: 1;
+}
+h1:hover {
+    color: blue;
+}
+.dlin_2 {
+	height: 435px;
+}
+</style>
+</head>
+<body>
+<div class="container_12 clearfix">
+<div id="header" class="grid_12">
+<h1>МАКЕТЫ</h1>
+<div id="nav">
+<ul>
+<li><a href="https://vk.com/">Домой</a></li>
+<li><a href="https://vk.com/">Товары</a></li>
+<li><a href="https://vk.com/">Услуги</a></li>
+<li><a href="https://vk.com/">О нас</a></li>
+<li><a href="https://vk.com/">Контакт</a></li>
+</ul>
+</div>
+</div>
+<div id="feature" class="grid_12">
+<p>характеристика</p>
+</div>
+<div class="article grid_4">
+<p>1 колонка</p>
+</div>
+<div class="article grid_4">
+<p>2 колонка</p>
+</div>
+<div class="article grid_4">
+<p>3 колонка</p>
+</div>
+<div class="article grid_4">
+<p>4 колонка</p>
+</div>
+<div class="article grid_8">
+<p>5 колонка</p>
+</div>
+<div class="article grid_4">
+<p>6 колонка</p>
+</div>
+<div class="article grid_4">
+<p>7 колонка</p>
+</div>
+<div class="article grid_4">
+<p>8 колонка</p>
+</div>
+<div class="article grid_8 dlin_2">
+<p>9 колонка</p>
+</div>
+<div class="article grid_4">
+<p>10 колонка</p>
+</div>
+<div class="article grid_4">
+<p>11 колонка</p>
+</div>
+<div class="article grid_4">
+<p>12 колонка</p>
+</div>
+<div class="article grid_4">
+<p>13 колонка</p>
+</div>
+<div class="article grid_4">
+<p>14 колонка</p>
+</div>
+<div id="footer" class="grid_12">
+<p>это наш магаз 2028</p>
+</div>
+</div>
+</body>
+</html>
